@@ -2,9 +2,9 @@ import 'dart:io';
 
 void main() {
   stdout.write('\t\t Note Application\n');
-  stdout.write('1 Write Todo \n');
-  stdout.write('2 show Todo \n');
-  stdout.write('3 delete Todo \n');
+  stdout.write('1 Write Note \n');
+  stdout.write('2 show Note \n');
+  stdout.write('3 delete Note \n');
 
   int choose = int.parse(stdin.readLineSync().toString());
 
