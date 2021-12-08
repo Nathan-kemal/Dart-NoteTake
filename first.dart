@@ -1,6 +1,5 @@
 import 'dart:io';
 
-List<String> notes = [];
 void main() {
   stdout.write('\t\t Note Application\n');
   stdout.write('1 Write Todo \n');
